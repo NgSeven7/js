@@ -3,7 +3,7 @@
 	if (window.console && window.console.log) {
 		const log = (...args) => setTimeout(console.log.bind(console, ...args))
 		log(
-			'\n %c TianTianTian %c https://supertis.com \n',
+			'\n %c Supertis Tian %c https://supertis.com \n',
 			'color:#FFFFFB;background:#ffa628;padding:5px 0;border-radius:.5rem 0 0 .5rem;',
 			'background: #efefef;padding:5px 0 5px;border-radius:0 .5rem .5rem 0;'
 		)
